@@ -5,6 +5,8 @@ Author: Adiel Ben Moshe
 Version: 1.0.0
 */
 
+
+
 class Woocommerce_Discount_Quantity_ABM {
 
   function __construct() {
