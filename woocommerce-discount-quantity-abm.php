@@ -10,7 +10,8 @@ class Woocommerce_Discount_Quantity_ABM {
   function __construct() {
     // Set Discount
     add_action('woocommerce_before_calculate_totals', array($this, 'set_discount'));
-
+ 
+    
     // Append Label on cart list
     add_filter('woocommerce_cart_item_name', array($this, 'append_custom_label_to_item_name'), 20, 3);
 
