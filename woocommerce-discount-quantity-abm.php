@@ -8,7 +8,6 @@ Version: 1.0.0
 class Woocommerce_Discount_Quantity_ABM {
 
   function __construct() {
-
     // Set Discount
     add_action('woocommerce_before_calculate_totals', array($this, 'set_discount'));
 
